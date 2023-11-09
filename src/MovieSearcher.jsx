@@ -58,7 +58,7 @@ export const MovieSearcher = () => {
       </form>
       {fetchError && <h3 className="error">{fetchError}</h3>}
       <div className="movie-list">
-      {movies.map((movie) => (
+        {movies.map((movie) => (
           <div key={movie.id} className="movie-card">
             <img
               src={`https://image.tmdb.org/t/p/w500/${movie.poster_path}`}

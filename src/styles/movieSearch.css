@@ -76,7 +76,7 @@ button:hover {
 
 .error {
   text-transform: capitalize;
-  color: red
+  color: red;
 }
 
 .spinner {
